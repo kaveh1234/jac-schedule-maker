@@ -691,6 +691,22 @@
       "department": "BIOLOGY",
       "sections": [
         {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Dagenais, Maryse R 1230-1430",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1630"
+              }
+            }
+          ]
+        },
+        {
           "section": "00002",
           "components": [
             {
@@ -1563,6 +1579,17 @@
                 "start": "0830",
                 "end": "1000"
               }
+            },
+            {
+              "type": "Laboratory",
+              "teacher": "R\u00e9gimbal, Jean-Michel T 1230-1430",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
+              }
             }
           ]
         },
@@ -2371,6 +2398,38 @@
           ]
         },
         {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Grundy, Peter W 1300-1500",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1230"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "MacDonald, Keith F 0830-1030",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "0930"
+              }
+            }
+          ]
+        },
+        {
           "section": "00004",
           "components": [
             {
@@ -2383,6 +2442,38 @@
               "time": {
                 "start": "1300",
                 "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00005",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Fulleringer, Alexander F 0930-1130",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1230"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00006",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "MacDonald, Keith R 1430-1530",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1630"
               }
             }
           ]
@@ -2404,6 +2495,86 @@
           ]
         },
         {
+          "section": "00008",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Grundy, Peter F 1600-1700",
+              "days": [
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1500",
+                "end": "1700"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00009",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Haaf, Michael William R 1330-1430",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1230",
+                "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00010",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Grundy, Peter W 0930-1130",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "0930",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00011",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Grundy, Peter F 1130-1230",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1030",
+                "end": "1230"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00012",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Haaf, Michael William R 0830-1030",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "0930"
+              }
+            }
+          ]
+        },
+        {
           "section": "00013",
           "components": [
             {
@@ -2416,6 +2587,22 @@
               "time": {
                 "start": "1130",
                 "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00014",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "MacDonald, Keith F 1030-1130",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0930",
+                "end": "1130"
               }
             }
           ]
@@ -2441,6 +2628,414 @@
               "time": {
                 "start": "0930",
                 "end": "1130"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_code": "201-SN2-RE",
+      "discipline": "MATH",
+      "course_title": "Differential Calculus",
+      "department": "MATHEMATICS",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Mombourquette, Ethan TR 1000-1130",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1030",
+                "end": "1230"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Mombourquette, Ethan TR 1300-1430",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1530",
+                "end": "1730"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Lo Vasco, Frank RF 1130-1300",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1030",
+                "end": "1230"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00004",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Lo Vasco, Frank R 0830-1030",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00005",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Guindi, Moushira W 0830-1030",
+              "days": [
+                "Tuesday",
+                "Friday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00006",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "TBA-1, Mathematics W 1430-1630",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1600",
+                "end": "1730"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00007",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Boshuck, William RF 1130-1300",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00008",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Boshuck, William RF 1300-1430",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1230",
+                "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00009",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Mokhtarian, Faranak T 0830-1030",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00010",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Mokhtarian, Faranak W 1030-1230",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00011",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Gerber, Kenneth W 0830-1030",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00012",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Gerber, Kenneth T 1230-1430",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00013",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Lucier, Jason R 0830-1030",
+              "days": [
+                "Tuesday",
+                "Friday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00014",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Lucier, Jason W 0830-1030",
+              "days": [
+                "Tuesday",
+                "Friday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00015",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Klochko, Yuliya WF 0830-1000",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00016",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Flood, Kevin W 1030-1230",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00017",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Flood, Kevin T 1230-1430",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00018",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Zhao, Yu F 1030-1230",
+              "days": [
+                "Tuesday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00019",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Zhao, Yu F 1430-1630",
+              "days": [
+                "Tuesday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00020",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Dale Hill, Jordan R 1230-1430",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00021",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Dale Hill, Jordan F 1430-1630",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00022",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Pendev, Ivo W 1030-1230",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00023",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Kazuo Takei, Luiz F 1030-1230",
+              "days": [
+                "Monday",
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00024",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Kazuo Takei, Luiz F 1430-1630",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1600",
+                "end": "1730"
               }
             }
           ]
@@ -2491,6 +3086,22 @@
               "time": {
                 "start": "1130",
                 "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Gatien, Daniel R 1600-1730",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
               }
             }
           ]
@@ -2634,6 +3245,115 @@
       ]
     },
     {
+      "course_code": "201-SN3-RE",
+      "discipline": "MATH",
+      "course_title": "Integral Calculus",
+      "department": "MATHEMATICS",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Lo Vasco, Frank F 0830-0930",
+              "days": [
+                "Tuesday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Deptula, Renata W 1130-1230",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Chaput, Philippe R 1330-1430",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00004",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Chaput, Philippe R 1430-1530",
+              "days": [
+                "Monday",
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00005",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Chaput, Philippe R 1530-1630",
+              "days": [
+                "Monday",
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1600",
+                "end": "1730"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00006",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Connor, Cameron James WF 1300-1430",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1330",
+                "end": "1430"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "course_code": "201-SN4-RE",
       "discipline": "MATH",
       "course_title": "Linear Algebra I",
@@ -2652,6 +3372,90 @@
               "time": {
                 "start": "0830",
                 "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Boshuck, William F 0830-1030",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1230",
+                "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Mokhtarian, Faranak W 1330-1430",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00004",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "McLeod, Alice W 1230-1330",
+              "days": [
+                "Tuesday",
+                "Friday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00005",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "McLeod, Alice W 1330-1430",
+              "days": [
+                "Tuesday",
+                "Friday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00006",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Delage, Philippe F 0830-0930",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
               }
             }
           ]
@@ -2742,6 +3546,38 @@
           ]
         },
         {
+          "section": "00012",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Baker, Audrey Elaine TR 1430-1600",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1530"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00013",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Baker, Audrey Elaine TR 1600-1730",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1530",
+                "end": "1630"
+              }
+            }
+          ]
+        },
+        {
           "section": "00014",
           "components": [
             {
@@ -2771,6 +3607,31 @@
               "time": {
                 "start": "1430",
                 "end": "1630"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_code": "201-SNB-AB",
+      "discipline": "MATH",
+      "course_title": "Multivariate Calculus",
+      "department": "MATHEMATICS",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Morris, Christophe F 1330-1430",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1430"
               }
             }
           ]
@@ -4374,6 +5235,126 @@
               "time": {
                 "start": "1030",
                 "end": "1230"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_code": "360-PR0-AB",
+      "discipline": "MULT",
+      "course_title": "Science Project",
+      "department": "PHYSICS",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Dos Santos Junior, Angelo Geovani R 0830-0930",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Melhem, Omar R 0830-0930",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Pagnucco, Katherine S. R 0830-0930",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00004",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Jackson, Phoebe Ann R 0830-0930",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00005",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Levesque, Christian",
+              "days": [
+                "Thursday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "0930"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00006",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Peres, Tania",
+              "days": [
+                "Thursday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "0930"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00007",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "R 0830-0930",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1030"
               }
             }
           ]
@@ -6092,6 +7073,265 @@
       ]
     },
     {
+      "course_code": "201-SH2-AB",
+      "discipline": "MATH",
+      "course_title": "Calculus 1 for Social Science",
+      "department": "MATHEMATICS",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Bardestani, Mohammad WF 1000-1130",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1030",
+                "end": "1230"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Bardestani, Mohammad WF 1130-1300",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1030",
+                "end": "1230"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Guindi, Moushira W 1030-1230",
+              "days": [
+                "Tuesday",
+                "Friday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00004",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Mikhail, Shery Halim Yakoub W 1230-1430",
+              "days": [
+                "Tuesday",
+                "Friday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00005",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Panassenko, Alexandre T 0830-1030",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00006",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Chiappetta, Giulia W 1030-1230",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00007",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Chiappetta, Giulia T 1030-1230",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1430"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00008",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Chung, Derrick WF 0830-1000",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00009",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Dale Hill, Jordan F 1230-1430",
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00010",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Connor, Cameron James R 0830-1030",
+              "days": [
+                "Monday",
+                "Friday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00011",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Connor, Cameron James R 1030-1230",
+              "days": [
+                "Monday",
+                "Friday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00012",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Herlin, Antoine T 1300-1430",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00013",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Herlin, Antoine F 1430-1630",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00014",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Karouma, Abdulrahman T 0830-1030",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00015",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Karouma, Abdulrahman W 0830-1030",
+              "days": [
+                "Monday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "course_code": "201-SH2-EN",
       "discipline": "MATH",
       "course_title": "Calculus I ENHANCED",
@@ -6157,6 +7397,80 @@
       ]
     },
     {
+      "course_code": "201-SH3-AB",
+      "discipline": "MATH",
+      "course_title": "Calculus 2 for Social Science",
+      "department": "MATHEMATICS",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Solsten, Karen TR 0830-1000",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "0830",
+                "end": "0930"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Solsten, Karen TR 1000-1130",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "0930",
+                "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Abdel Malek, Kenzy F 0930-1030",
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00004",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Abdel Malek, Kenzy F 1030-1130",
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "course_code": "201-SH4-AB",
       "discipline": "MATH",
       "course_title": "Linear Algebra for Social Science",
@@ -6175,6 +7489,40 @@
               "time": {
                 "start": "0830",
                 "end": "1030"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Solsten, Karen R 1230-1330",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1130",
+                "end": "1300"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Solsten, Karen R 1330-1430",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1430"
               }
             }
           ]
@@ -6226,6 +7574,57 @@
               "time": {
                 "start": "1430",
                 "end": "1630"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00007",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Abdel Malek, Kenzy F 1330-1430",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00008",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Abdel Malek, Kenzy F 1430-1530",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1600",
+                "end": "1730"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00009",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Abdel Malek, Kenzy F 1230-1330",
+              "days": [
+                "Tuesday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
               }
             }
           ]
@@ -10964,6 +12363,22 @@
           ]
         },
         {
+          "section": "00010",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Oltmann, Christina F 1500-1600",
+              "days": [
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1600"
+              }
+            }
+          ]
+        },
+        {
           "section": "00012",
           "components": [
             {
@@ -11678,6 +13093,30 @@
       ]
     },
     {
+      "course_code": "201-A1S-AB",
+      "discipline": "MATH",
+      "course_title": "Differential Calculus",
+      "department": "MATHEMATICS",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Gatien, Daniel TR 1300-1430",
+              "days": [
+                "Monday"
+              ],
+              "time": {
+                "start": "1430",
+                "end": "1630"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "course_code": "201-A3F-AB",
       "discipline": "MATH",
       "course_title": "Probabilit\u00e9s et statistiques",
@@ -12045,6 +13484,31 @@
       ]
     },
     {
+      "course_code": "360-124-AB",
+      "discipline": "MULT",
+      "course_title": "Principles of mathematics and logic",
+      "department": "PHILOSOPHY",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Delage, Philippe F 1030-1230",
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "time": {
+                "start": "1000",
+                "end": "1130"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "course_code": "385-PPF-AB",
       "discipline": "POLS",
       "course_title": "Parlons politique",
@@ -12063,6 +13527,30 @@
               "time": {
                 "start": "1130",
                 "end": "1300"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_code": "560-LAF-AB",
+      "discipline": "THWP",
+      "course_title": "Atelier de th\u00e9\u00e2tre: explorer la condition humaine",
+      "department": "POLITICAL SCIENCE",
+      "sections": [
+        {
+          "section": "00001",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Fontaine, Edouard F 1130-1300",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1500",
+                "end": "1630"
               }
             }
           ]
@@ -13062,6 +14550,22 @@
               "time": {
                 "start": "0830",
                 "end": "1000"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00002",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "R 0830-1000",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1300",
+                "end": "1430"
               }
             }
           ]
@@ -15366,6 +16870,22 @@
               "time": {
                 "start": "1430",
                 "end": "1600"
+              }
+            }
+          ]
+        },
+        {
+          "section": "00003",
+          "components": [
+            {
+              "type": "Lecture",
+              "teacher": "Mizouni, Sophia R 1630-1800",
+              "days": [
+                "Tuesday"
+              ],
+              "time": {
+                "start": "1600",
+                "end": "1730"
               }
             }
           ]
@@ -19619,6 +21139,11 @@
     }
   ],
   "teachers": [
+    "Abdel Malek, Kenzy F 0930-1030",
+    "Abdel Malek, Kenzy F 1030-1130",
+    "Abdel Malek, Kenzy F 1230-1330",
+    "Abdel Malek, Kenzy F 1330-1430",
+    "Abdel Malek, Kenzy F 1430-1530",
     "Abray, Thomas Andrew",
     "Aissani, Louiza",
     "Allen, Lisa Kathryn",
@@ -19632,7 +21157,11 @@
     "Babkine-Ringuette, Astrid",
     "Badawy, Youmna",
     "Baker, Audrey Elaine",
+    "Baker, Audrey Elaine TR 1430-1600",
+    "Baker, Audrey Elaine TR 1600-1730",
     "Balogh, Ferenc",
+    "Bardestani, Mohammad WF 1000-1130",
+    "Bardestani, Mohammad WF 1130-1300",
     "Bazelais, Paul",
     "Bean, Sarah Heather",
     "Beaupr\u00e9-Odorico, Vicki",
@@ -19648,6 +21177,9 @@
     "Black, Suzanne",
     "Boer, Elise Marianne",
     "Boshuck, William",
+    "Boshuck, William F 0830-1030",
+    "Boshuck, William RF 1130-1300",
+    "Boshuck, William RF 1300-1430",
     "Bouchard, Mathieu",
     "Bouras, Jenny",
     "Bourgeois, David",
@@ -19665,26 +21197,43 @@
     "Caouette, Julie",
     "Carle, Emmanuelle",
     "Chaput, Philippe",
+    "Chaput, Philippe R 1330-1430",
+    "Chaput, Philippe R 1430-1530",
+    "Chaput, Philippe R 1530-1630",
     "Charest, Julien",
+    "Chiappetta, Giulia T 1030-1230",
+    "Chiappetta, Giulia W 1030-1230",
     "Chowanietz, Christophe Cl\u00e9ment",
     "Chung, Derrick",
+    "Chung, Derrick WF 0830-1000",
     "Claude, Stephanie Danielle",
     "Cl\u00e9ment, Ian",
     "Cockburn, Jenny",
+    "Connor, Cameron James R 0830-1030",
+    "Connor, Cameron James R 1030-1230",
+    "Connor, Cameron James WF 1300-1430",
     "Couture-Grondin, \u00c9lise",
     "D'Melo, Preeti Pearl",
     "D'Sousa, Adil",
     "Dagenais, Maryse",
+    "Dagenais, Maryse R 1230-1430",
     "Dainius Lerner, Gediminas",
+    "Dale Hill, Jordan F 1230-1430",
+    "Dale Hill, Jordan F 1430-1630",
+    "Dale Hill, Jordan R 1230-1430",
     "Daniel-Hughes, Brandon Carl",
     "Daoust, Simon",
     "Darwish, Shireef",
     "Davidson, Vanessa Michelle",
     "Delage, Philippe",
+    "Delage, Philippe F 0830-0930",
+    "Delage, Philippe F 1030-1230",
+    "Deptula, Renata W 1130-1230",
     "Desjardins, David",
     "Di Stefano, Paolo",
     "Donahue Sherwood, Kathleen",
     "Dos Santos Junior, Angelo Geovani",
+    "Dos Santos Junior, Angelo Geovani R 0830-0930",
     "Dubois, Olivier",
     "Dugdale, Michael",
     "Dukanic, Filip",
@@ -19700,18 +21249,26 @@
     "Filipavicius, Raymond",
     "Fisher, Jennifer",
     "Flood, Kevin",
+    "Flood, Kevin T 1230-1430",
+    "Flood, Kevin W 1030-1230",
     "Foam, Patricia",
     "Fontaine, Edouard",
+    "Fontaine, Edouard F 1130-1300",
     "Foran, Kelly Ann",
     "Forrest, Nicole Anne",
     "Foy, Michael",
     "Fraser, Dorian Jesse",
     "Fu, Roy",
     "Fulleringer, Alexander",
+    "Fulleringer, Alexander F 0930-1130",
     "Gagnon, Julie",
     "Gagn\u00e9, Nicolas",
     "Gatien, Daniel",
+    "Gatien, Daniel R 1600-1730",
+    "Gatien, Daniel TR 1300-1430",
     "Geoffroy, Yann",
+    "Gerber, Kenneth T 1230-1430",
+    "Gerber, Kenneth W 0830-1030",
     "Ghinani, Sasan",
     "Ghosh, Sujata",
     "Gilchrist, Bruce",
@@ -19720,8 +21277,16 @@
     "Golden, Anne",
     "Goodyear, Jamie Wilson",
     "Goren, Michal",
+    "Grundy, Peter F 1130-1230",
+    "Grundy, Peter F 1600-1700",
+    "Grundy, Peter W 0930-1130",
+    "Grundy, Peter W 1300-1500",
     "Guay, Andr\u00e9e-Anne",
     "Guiducci, Dario",
+    "Guindi, Moushira W 0830-1030",
+    "Guindi, Moushira W 1030-1230",
+    "Haaf, Michael William R 0830-1030",
+    "Haaf, Michael William R 1330-1430",
     "Hackett, Kieran",
     "Hadd, Wendi",
     "Hage, Merdad",
@@ -19731,6 +21296,8 @@
     "Healey, Monica",
     "Hemmati, Proshat",
     "Herlin, Antoine",
+    "Herlin, Antoine F 1430-1630",
+    "Herlin, Antoine T 1300-1430",
     "Herta, Gabriel",
     "Hill, David",
     "Hnatyshyn, Olha",
@@ -19749,10 +21316,16 @@
     "Inch, Robert A.",
     "Iyer, Rekha",
     "Jackson, Phoebe Ann",
+    "Jackson, Phoebe Ann R 0830-0930",
     "Jaffer, Karim M.",
     "Kalemkerian, Kathryn",
     "Karouma, Abdulrahman",
+    "Karouma, Abdulrahman T 0830-1030",
+    "Karouma, Abdulrahman W 0830-1030",
+    "Kazuo Takei, Luiz F 1030-1230",
+    "Kazuo Takei, Luiz F 1430-1630",
     "Kerwin, Eileen",
+    "Klochko, Yuliya WF 0830-1000",
     "Kwas, Michelle",
     "Laferriere, Eric",
     "Laganiere, Frederic",
@@ -19772,10 +21345,18 @@
     "Limoges, Alexandre",
     "Lin, Grace Cheng-Ying",
     "Lloyd-Hughes, Bronwen",
+    "Lo Vasco, Frank F 0830-0930",
+    "Lo Vasco, Frank R 0830-1030",
+    "Lo Vasco, Frank RF 1130-1300",
+    "Lucier, Jason R 0830-1030",
+    "Lucier, Jason W 0830-1030",
     "Lum, Anthony",
     "Lunny, Deborah Rose",
     "L\u00e9g\u00e8re, Jessica",
     "L\u00e9veill\u00e9, Richard John",
+    "MacDonald, Keith F 0830-1030",
+    "MacDonald, Keith F 1030-1130",
+    "MacDonald, Keith R 1430-1530",
     "MacNamara, Kathleen",
     "Macaulay, Jamie Callum",
     "Maisonville, Derek",
@@ -19793,13 +21374,24 @@
     "McDermott, Jennifer",
     "McKinney, Kelly",
     "McLeod, Alice",
+    "McLeod, Alice W 1230-1330",
+    "McLeod, Alice W 1330-1430",
     "Melhem, Omar",
+    "Melhem, Omar R 0830-0930",
     "Mercado, Sebastian",
     "Michael, Minar",
+    "Mikhail, Shery Halim Yakoub W 1230-1430",
     "Miller, Brianna",
     "Millette, Roxane",
     "Mizouni, Sophia",
+    "Mizouni, Sophia R 1630-1800",
+    "Mokhtarian, Faranak T 0830-1030",
+    "Mokhtarian, Faranak W 1030-1230",
+    "Mokhtarian, Faranak W 1330-1430",
+    "Mombourquette, Ethan TR 1000-1130",
+    "Mombourquette, Ethan TR 1300-1430",
     "Morency Laflamme, Julien",
+    "Morris, Christophe F 1330-1430",
     "Morrison, Laura",
     "Mulcair, Gregory",
     "Mumme, Benjamin",
@@ -19812,16 +21404,20 @@
     "Notar, Clea",
     "Okker, Johanna",
     "Oltmann, Christina",
+    "Oltmann, Christina F 1500-1600",
     "Osowski, Edward",
     "Pagano, Michael",
     "Pagnucco, Katherine S.",
+    "Pagnucco, Katherine S. R 0830-0930",
     "Panagopoulos, Afroditi",
     "Panassenko, Alexandre",
+    "Panassenko, Alexandre T 0830-1030",
     "Pare, Nanouk",
     "Parkhill, Jean-Paul",
     "Pasto, Luigi",
     "Patricio, Tyler",
     "Pendev, Ivo",
+    "Pendev, Ivo W 1030-1230",
     "Pereira, Lindsay",
     "Peres, Tania",
     "Perez Quintana, German Miguel",
@@ -19837,6 +21433,8 @@
     "Priv\u00e9e, Chelsea",
     "Provencher, Mathieu",
     "Purcell, Finn",
+    "R 0830-0930",
+    "R 0830-1000",
     "Raceviciute, Ragne",
     "Racine, Felix",
     "Rashid, Azra",
@@ -19854,6 +21452,7 @@
     "Rozenberg, \u00c9velyne",
     "Russell, Claire Elizabeth",
     "R\u00e9gimbal, Jean-Michel",
+    "R\u00e9gimbal, Jean-Michel T 1230-1430",
     "Samboo, Avinash S.",
     "Sanchez, Albert William",
     "Sanchez-Nicolas, Darien",
@@ -19868,6 +21467,10 @@
     "Simes, Misty",
     "Skurczak, Cheyenne",
     "Sollazzo, Rhoda",
+    "Solsten, Karen R 1230-1330",
+    "Solsten, Karen R 1330-1430",
+    "Solsten, Karen TR 0830-1000",
+    "Solsten, Karen TR 1000-1130",
     "Somers, Bertram",
     "Sotiron, Jean Michel",
     "Spicer, Gordon",
@@ -19877,6 +21480,7 @@
     "Sych, Steven Randall",
     "Szigeti, Lawrence Laszlo",
     "TBA-1, Economics",
+    "TBA-1, Mathematics W 1430-1630",
     "TBA-1, Psychology",
     "TBA-2, English",
     "TBA-3, English",
@@ -19906,6 +21510,8 @@
     "Young, Ryan",
     "Young, Thomas",
     "Zhao, Yu",
+    "Zhao, Yu F 1030-1230",
+    "Zhao, Yu F 1430-1630",
     "Ziliotti, Roberto",
     "Zimerman, Mikhail",
     "de Hoop, Nicole",

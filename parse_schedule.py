@@ -21,6 +21,13 @@ def parse_schedule():
     with open('extracted_schedule.txt', 'r', encoding='latin-1') as f:
         content = f.read()
 
+    # Clean up PDF encoding artifacts
+    content = content.replace('(cid:10)', ' ')
+    content = content.replace('(cid:13)', ' ')
+    # Normalize multiple spaces
+    import re as re_clean
+    content = re_clean.sub(r' +', ' ', content)
+
     courses = []
     current_section = None
     current_course_code = None
