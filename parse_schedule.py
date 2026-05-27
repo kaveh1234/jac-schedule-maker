@@ -17,6 +17,17 @@ def parse_days(day_str):
             days.append(day_map[char])
     return days
 
+def extract_teacher_and_time(teacher_str):
+    """Extract teacher name and optional day/time from strings like 'Dagenais, Maryse R 1230-1430'"""
+    # Check if string ends with day/time pattern
+    match = re.search(r'^(.+?)\s+([MTWRF]+)\s+(\d{4}-\d{4})$', teacher_str)
+    if match:
+        teacher = match.group(1).strip()
+        days = match.group(2)
+        time = match.group(3)
+        return teacher, days, time
+    return teacher_str, None, None
+
 def parse_schedule():
     with open('extracted_schedule.txt', 'r', encoding='latin-1') as f:
         content = f.read()
@@ -90,7 +101,10 @@ def parse_schedule():
                 type_match = re.match(r'^(Lecture|Laboratory|Fieldwork|Tutorial|Stage|Seminar)\s+(.+)', next_line)
                 if type_match:
                     component_type = type_match.group(1)
-                    teacher = type_match.group(2).strip()
+                    teacher_raw = type_match.group(2).strip()
+
+                    # Check if teacher string contains additional day/time
+                    teacher, extra_days, extra_time = extract_teacher_and_time(teacher_raw)
 
                     current_section['components'].append({
                         'type': component_type,
@@ -98,6 +112,15 @@ def parse_schedule():
                         'days': parse_days(days),
                         'time': parse_time(times)
                     })
+
+                    # If there was extra day/time info, add another component
+                    if extra_days and extra_time:
+                        current_section['components'].append({
+                            'type': component_type,
+                            'teacher': teacher,
+                            'days': parse_days(extra_days),
+                            'time': parse_time(extra_time)
+                        })
                     i += 1
 
             # Continue reading more components for this section
@@ -116,7 +139,10 @@ def parse_schedule():
                         type_match = re.match(r'^(Lecture|Laboratory|Fieldwork|Tutorial|Stage|Seminar)\s+(.+)', next_line)
                         if type_match:
                             component_type = type_match.group(1)
-                            teacher = type_match.group(2).strip()
+                            teacher_raw = type_match.group(2).strip()
+
+                            # Check if teacher string contains additional day/time
+                            teacher, extra_days, extra_time = extract_teacher_and_time(teacher_raw)
 
                             current_section['components'].append({
                                 'type': component_type,
@@ -124,6 +150,15 @@ def parse_schedule():
                                 'days': parse_days(days),
                                 'time': parse_time(times)
                             })
+
+                            # If there was extra day/time info, add another component
+                            if extra_days and extra_time:
+                                current_section['components'].append({
+                                    'type': component_type,
+                                    'teacher': teacher,
+                                    'days': parse_days(extra_days),
+                                    'time': parse_time(extra_time)
+                                })
                             i += 1
                             continue
                     break
@@ -150,16 +185,23 @@ def main():
     for section in courses:
         key = f"{section['discipline']} {section['course_code']}"
         if key not in course_groups:
+            # Use course title without (Blended) for the main course name
+            base_title = re.sub(r'\s*\(Blended\)\s*', '', section['course_title']).strip()
             course_groups[key] = {
                 'course_code': section['course_code'],
                 'discipline': section['discipline'],
-                'course_title': section['course_title'],
+                'course_title': base_title,
                 'department': section['department'],
                 'sections': []
             }
+
+        # Check if this section is blended
+        is_blended = '(Blended)' in section['course_title']
+
         course_groups[key]['sections'].append({
             'section': section['section'],
-            'components': section['components']
+            'components': section['components'],
+            'blended': is_blended
         })
 
     # Get all unique teachers
